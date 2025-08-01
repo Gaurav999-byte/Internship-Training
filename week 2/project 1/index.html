@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive To-Do List</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>My To-Do List</h1>
+</header>
+
+<main>
+  <section>
+    <form id="todo-form" aria-label="Add a new task">
+      <input type="text" id="todo-input" placeholder="Enter a new task" aria-required="true" />
+      <button type="submit">Add</button>
+    </form>
+
+    <div id="message" role="alert" aria-live="polite"></div>
+
+    <ul id="todo-list" aria-live="polite" aria-label="List of tasks">
+      <!-- To-do items go here -->
+    </ul>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Gaurav Nagrale
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
